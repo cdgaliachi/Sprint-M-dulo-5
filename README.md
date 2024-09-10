@@ -1,6 +1,6 @@
 # Sistema de Gestión de Usuarios para Empresa de Asesorías en Prevención de Riesgos
 
-##Lista de Integrantes SPRINT FINAL Modulo5
+## Lista de Integrantes SPRINT FINAL Modulo5
 Ana Andrade - Carolina Díaz - Claudio Aránguiz - Lorena Suárez - Ricardo Ramones
 
 ## Descripción del Proyecto
