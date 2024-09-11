@@ -19,8 +19,6 @@
             var rutRegex = /^\d{1,8}-[\dKk]$/;
             // Expresión para validar solo números
             var soloNumeros = /^[0-9]+$/;
-            // Expresión para validar la fecha en formato DD/MM/AAAA
-            var fechaRegex = /^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$/;
 
             // Validar que el nombre solo contenga letras
             if (!nombre.match(soloLetras)) {
@@ -60,13 +58,6 @@
             // Validar que el título solo contenga letras
             if (titulo && !titulo.match(soloLetras)) {
                 alert("El título solo debe contener letras.");
-                event.preventDefault();
-                return;
-            }
-
-            // Validar que la fecha tenga el formato DD/MM/AAAA
-            if (fechaIngreso && !fechaIngreso.match(fechaRegex)) {
-                alert("La fecha debe estar en formato DD/MM/AAAA.");
                 event.preventDefault();
                 return;
             }
